@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Neuton', serif;
+    outline: none;
+}
+
+body {
+    background-image: url(./img/focus.jpg);
+    background-size: 100%;
+}
+
+.wrapper {
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 2em;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(235, 172, 90);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.384);
+    width: 230px;
+    padding-bottom: 5px;
+    margin: auto;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.add input {
+    width: 200px;
+    padding: 3px;
+    border: none;
+    border-radius: 0.7em;
+    font-size: 16px;
+}
+
+.add button {
+    padding-bottom: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    background-color: rgb(235, 172, 90);
+    border-radius: 50%;
+}
+
+.add button:hover {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.5);
+    transition: 0.2s;
+}
+
+.to-do, .done {
+    font-size: 20px;
+    margin: 20px auto;
+    width: 200px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+}
+
+li {
+    height: 30px;
+    font-size: large;
+    list-style-position: inside;
+}
+
+li:hover {
+    color: rgb(235, 172, 90);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.delete{
+    float:right;
+    font-weight: 800;
+    font-size: 18px;
+    
+}
