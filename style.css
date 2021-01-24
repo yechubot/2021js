@@ -86,15 +86,14 @@ li {
     list-style-position: inside;
 }
 
-li:hover {
+.do-li{
+    color:orange;
+}
+.delete:hover {
     color: rgb(235, 172, 90);
     transition: 0.3s;
     cursor: pointer;
 }
-
 .delete{
-    float:right;
-    font-weight: 800;
-    font-size: 18px;
-    
+    margin-left:20px;
 }
